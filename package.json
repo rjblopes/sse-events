@@ -1,7 +1,7 @@
 {
   "name": "sse-events",
   "version": "1.0.0",
-  "description": "SSE event source polyfill wrapped in an Node like EventEmitter and custom performance fixes and api methods. Compatible with React/React-Native.",
+  "description": "SSE event source polyfill wrapped in Node.js like EventEmitter with performance fixes and custom api. Compatible with React/React-Native.",
   "main": "EventSource.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -103,7 +103,7 @@ sse.open();
 SSE connection can be suspended calling the `close` method. Instance headers, params or other options don't apply to the on-going connection unless manually closed and open again.
 
 ```js
-sse.open();
+sse.close();
 ```
 
 To close the connection and remove all listeners call the `destroy` method. Following calls to `open` WILL NOT restore previous event listeners.
@@ -233,7 +233,7 @@ sse.params
  * Connection URL path
  * @type {Object}
  */
-this.path
+sse.path
 
 /**
  * SSE Connection State
