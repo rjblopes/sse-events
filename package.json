@@ -1,0 +1,28 @@
+{
+  "name": "sse-events",
+  "version": "1.0.0",
+  "description": "SSE event source polyfill wrapped in an Node like EventEmitter and custom performance fixes and api methods. Compatible with React/React-Native.",
+  "main": "EventSource.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sse",
+    "event-source",
+    "server-side-events",
+    "polyfill",
+    "react",
+    "react-native",
+    "eventemitter",
+    "performance"
+  ],
+  "author": "Ricardo Lopes <ricardo.lopes@ikual.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eventemitter3": "^3.1.0",
+    "url": "^0.11.0"
+  },
+  "peerDependencies": {
+    "xmlhttprequest": ">= 1.8.0"
+  }
+}
