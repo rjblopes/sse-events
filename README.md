@@ -36,7 +36,7 @@ or
 $ yarn add sse-events
 ```
 
-### Using in your project
+## Using in your project
 
 ```js
 import EventSource from 'sse-events';
