@@ -18,9 +18,9 @@ SSE event source polyfill wrapped in Node.js like EventEmitter with performance 
 
 **Implementation based on:**
 
-[EventSource remy/polyfills](https://github.com/remy/polyfills/blob/master/EventSource.js)
-[jordanbyron/react-native-event-source](https://github.com/jordanbyron/react-native-event-source)
-[EventSource/eventsource](https://github.com/EventSource/eventsource).
+ - [EventSource remy/polyfills](https://github.com/remy/polyfills/blob/master/EventSource.js)
+ - [jordanbyron/react-native-event-source](https://github.com/jordanbyron/react-native-event-source)
+ - [EventSource/eventsource](https://github.com/EventSource/eventsource).
 
 ## Installing
 
@@ -157,6 +157,7 @@ const {
   ON_TIMEOUT = 'timeout' // server closed connection
 } = EventSource.types;
 ```
+
 ## Configuration Options
 ```js
 /**
